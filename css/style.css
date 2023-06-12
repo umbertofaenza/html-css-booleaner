@@ -1,3 +1,5 @@
+/* generics */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,9 +7,11 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 50%;
     margin: 0 auto;
 }
+
+/* header */
 
 header {
     width: 100%;
@@ -23,4 +27,30 @@ header {
     position: relative;
     left: 10px;
     top: 40px;
+}
+
+/* main */
+
+main {
+    padding: 15px 5px;
+}
+
+address {
+    font-style: normal;
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.address-booleaner {
+    color: #4ea0fd;
+}
+
+.address-small {
+    font-size: 13px;
+}
+
+.captions {
+    font-size: 13px;
 }
