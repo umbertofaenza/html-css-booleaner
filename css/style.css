@@ -93,3 +93,32 @@ th, td {
 .tr-colored {
     background-color: lightblue;
 }
+
+/* footer */
+
+footer {
+    padding: 0 5px;
+}
+
+h4 {
+    color: gray;
+}
+
+.suggested-top, .suggested-bottom {
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 0 20px;
+}
+
+.suggested-top {
+    background-image: url(../img/monitor.jpg);
+    margin: 10px 0;
+}
+
+.suggested-bottom {
+    background-image: url(../img/graph.jpg);
+    margin-bottom: 30px;
+}
