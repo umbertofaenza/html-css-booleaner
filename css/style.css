@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0fd;
+    background-size: 50%;
+    background-position-y: 15%;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
