@@ -33,6 +33,7 @@ header {
 
 main {
     padding: 0px 5px;
+    margin-bottom: 20px;
 }
 
 .main-title-photos {
@@ -65,4 +66,30 @@ address {
 
 ul {
     margin: 20px 0;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #4ea0fd;
+    text-align: left;
+    color: white;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.th-short-text{
+    width: 25%;
+}
+
+.th-long-text{
+    width: 50%;
+}
+
+.tr-colored {
+    background-color: lightblue;
 }
