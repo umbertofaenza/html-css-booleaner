@@ -6,11 +6,6 @@
     padding: 0;
 }
 
-.container {
-    max-width: 50%;
-    margin: 0 auto;
-}
-
 /* header */
 
 header {
@@ -18,8 +13,8 @@ header {
     height: 100px;
     background-image: url(../img/pattern.png);
     background-color: #4ea0fd;
-    background-size: 50%;
-    background-position-y: 15%;
+    background-size: 20%;
+    background-position: top;
 }
 
 .logo {
@@ -65,7 +60,7 @@ address {
 }
 
 ul {
-    margin: 20px 0;
+    margin: 20px 0 20px 20px;
 }
 
 table {
