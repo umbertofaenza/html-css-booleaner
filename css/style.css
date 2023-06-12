@@ -32,7 +32,11 @@ header {
 /* main */
 
 main {
-    padding: 15px 5px;
+    padding: 0px 5px;
+}
+
+.main-title-photos {
+    margin: 20px 0;
 }
 
 address {
@@ -53,4 +57,12 @@ address {
 
 .captions {
     font-size: 13px;
+}
+
+.highlighted-text {
+    background-color: yellow;
+}
+
+ul {
+    margin: 20px 0;
 }
